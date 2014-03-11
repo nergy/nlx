@@ -34,37 +34,90 @@ Ext.define('NergyLogiX.view.MainView', {
                     region: 'north',
                     height: 100,
                     itemId: 'headerPanel',
-                    layout: 'fit',
                     title: 'Header'
                 },
                 {
                     xtype: 'panel',
                     region: 'west',
                     split: true,
-                    border: '0 2 0 0',
                     itemId: 'menuPanel',
-                    width: 150,
-                    bodyBorder: false,
+                    width: 250,
+                    layout: 'accordion',
                     collapseDirection: 'left',
-                    collapsible: true,
                     title: 'Menu',
                     items: [
                         {
-                            xtype: 'menu',
-                            floating: false,
-                            itemId: 'sideMenu',
+                            xtype: 'panel',
+                            title: 'Group 1',
                             items: [
                                 {
-                                    xtype: 'menuitem',
-                                    text: 'Menu Item'
-                                },
+                                    xtype: 'menu',
+                                    floating: false,
+                                    itemId: 'menu1',
+                                    items: [
+                                        {
+                                            xtype: 'menuitem',
+                                            text: 'Menu Item'
+                                        },
+                                        {
+                                            xtype: 'menuitem',
+                                            text: 'Menu Item'
+                                        },
+                                        {
+                                            xtype: 'menuitem',
+                                            text: 'Menu Item'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            xtype: 'panel',
+                            title: 'Group 2',
+                            items: [
                                 {
-                                    xtype: 'menuitem',
-                                    text: 'Menu Item'
-                                },
+                                    xtype: 'menu',
+                                    floating: false,
+                                    itemId: 'menu2',
+                                    items: [
+                                        {
+                                            xtype: 'menuitem',
+                                            text: 'Menu Item'
+                                        },
+                                        {
+                                            xtype: 'menuitem',
+                                            text: 'Menu Item'
+                                        },
+                                        {
+                                            xtype: 'menuitem',
+                                            text: 'Menu Item'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            xtype: 'panel',
+                            title: 'Group 3',
+                            items: [
                                 {
-                                    xtype: 'menuitem',
-                                    text: 'Menu Item'
+                                    xtype: 'menu',
+                                    floating: false,
+                                    itemId: 'menu3',
+                                    items: [
+                                        {
+                                            xtype: 'menuitem',
+                                            text: 'Menu Item'
+                                        },
+                                        {
+                                            xtype: 'menuitem',
+                                            text: 'Menu Item'
+                                        },
+                                        {
+                                            xtype: 'menuitem',
+                                            text: 'Menu Item'
+                                        }
+                                    ]
                                 }
                             ]
                         }
@@ -72,8 +125,8 @@ Ext.define('NergyLogiX.view.MainView', {
                 },
                 {
                     xtype: 'panel',
+                    flex: 1,
                     region: 'center',
-                    split: true,
                     itemId: 'contentPanel',
                     title: 'Content'
                 }

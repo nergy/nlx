@@ -22,13 +22,13 @@
     "framework": "ext42",
     "viewOrderMap": {
         "view": [
-            "a705110d-4ce3-4545-a748-7f920677364e"
+            "ccf11f1b-c72a-44fc-9803-344ace6f3349"
         ],
         "store": [],
         "controller": [],
         "model": [],
         "resource": [
-            "78dfd286-f2d0-4843-9e8f-c71156230a59"
+            "ed1b2218-96e3-4f67-afee-45be463f92e9"
         ],
         "app": [
             "application"
