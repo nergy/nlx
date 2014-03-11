@@ -1,0 +1,37 @@
+{
+    "name": "NergyLogiX",
+    "settings": {
+        "cmd": {
+            "license": "commercial"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "urlPrefix": "",
+        "exportPath": ""
+    },
+    "xdsVersion": "3.0.2",
+    "xdsBuild": 1375,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000004,
+    "framework": "ext42",
+    "viewOrderMap": {
+        "view": [
+            "a705110d-4ce3-4545-a748-7f920677364e"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "78dfd286-f2d0-4843-9e8f-c71156230a59"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}
