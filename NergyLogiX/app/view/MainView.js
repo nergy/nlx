@@ -44,6 +44,7 @@ Ext.define('NergyLogiX.view.MainView', {
                     width: 250,
                     layout: 'accordion',
                     collapseDirection: 'left',
+                    collapsible: true,
                     title: 'Menu',
                     items: [
                         {

@@ -12,7 +12,7 @@
                 "width": null
             }
         },
-        "urlPrefix": "",
+        "urlPrefix": "http://localhost/NergyLogiX/",
         "exportPath": ""
     },
     "xdsVersion": "3.0.2",

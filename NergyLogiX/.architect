@@ -83,14 +83,16 @@
         }
     },
     "tabState": {
-        "openTabs": []
+        "openTabs": [
+            "ccf11f1b-c72a-44fc-9803-344ace6f3349"
+        ]
     },
     "canvasState": {
         "topInstance": "ccf11f1b-c72a-44fc-9803-344ace6f3349"
     },
     "inspectorState": {
         "topInstance": "ccf11f1b-c72a-44fc-9803-344ace6f3349",
-        "selectedInstance": "ccf11f1b-c72a-44fc-9803-344ace6f3349"
+        "selectedInstance": "ec429cf4-e38a-4872-a33d-5a8029944736"
     },
     "codeState": {
         "topInstance": null

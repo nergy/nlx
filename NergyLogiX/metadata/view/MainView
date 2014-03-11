@@ -37,6 +37,7 @@
             "codeClass": null,
             "userConfig": {
                 "collapseDirection": "left",
+                "collapsible": true,
                 "itemId": "menuPanel",
                 "layout": "accordion",
                 "layout|collapseMode": null,
